@@ -3,7 +3,7 @@
 * nodemon -w src -x "make && make run" -e ".cpp"
 * wmctrl -r "app" -b add,above;
 * Modify libs/openFrameworks/app/ofAppGlutWindow.cpp
-* Add GLUT_BORDERLESS|GLUT_CAPTIONLES to glutInitDisplayMode
+* Add GLUT_BORDERLESS|GLUT_CAPTIONLESS to glutInitDisplayMode
 * glutInitDisplayMode(GLUT_RGB | GLUT_SINGLE | GLUT_DEPTH | GLUT_ALPHA | GLUT_BORDERLESS|GLUT_CAPTIONLESS);
 * Modify libs/openFrameworks/app/ofAppGLFWWindow.cpp
 * Change glfwWindowHint(GLFW_DECORATED, settings.decorated);
